@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html id="index-html" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/styles.css">
+
+
+    <title>Machine Learning Project</title>
+</head>
+<body id="index">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light" style="background-color:lightgrey">
+        <a class="navbar-brand" href="index.html">
+            <img src="/static/images/code.svg" width="40" height="40" class="d-inline-block align-top" alt="" loading="lazy">
+            TurnOver
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Overview<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/dashboard">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/model">Random Forest</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/logistic">Logistic Regression</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/neural">Neural Network</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/predictions">Predictions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/att1">References</a>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          </form>
+        </div>
+      </nav>
+  
+    <div id="First" class="container">
+      <h2>Why people leave their work?</h2>
+      
+      <p>The numbers don’t lie. At over 150 million, there are more people at work in the world. than ever before. However, employees continue to quit for what they see as better opportunities. </p>
+      <p>In 2017 a staggering 41.4 million. workers voluntarily left their jobs. Turnover trends demonstrate an 8.3% increase over 2017 and 88% increase since 2010. If you allow this trend to continue, the turnover rate will hit 35% by 2023, placing companies in continuous and enormous risks</p>
+      
+      <h2>Employee Turnover</h2>
+      <p>Employee turnover is the loss of talent in the workforce over time. This includes any employee departure, including resignations, layoffs, terminations, retirements, location transfers</p>
+     
+      <h2>Repercusions</h2>
+      <p>If and when any of those people actually leave, the consequences aren’t trivial. And they and can hit all size of businesses hard:</p>
+      <ol>
+        <li><strong>Financially:</strong> Estimate backfilling roles costs employers roughly 20% of that position’s salary in hiring, recruiting, and onboarding costs.</li>
+        <li><strong>Productivity: </strong>could harm the performance overall of the business.</li>
+        <li><strong>Time: </strong>Time to fill a position is 36 days</li>
+      </ol>
+
+      <h2>Purpose of the Project</h2>
+      <p>The purpose of this project examines a  uniquely large data  set  in order explore  data  and  reveals  hidden  patterns  in employee  turnover, by analysing different data from 2 perspective’s</p>
+      <ol>
+        <li><strong>Employee Perspective</strong></li>
+        <li><strong>Employer Perspective</strong></li>
+        </ol>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.7/d3.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="/static/js/app.js"></script>
+
+</body>
+</html>
